@@ -1,0 +1,82 @@
+*{
+    box-sizing: none;
+    list-style-type: none;
+    margin: 0px;
+}
+header h1{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    background-color: yellow;
+    padding-left: 30px; 
+    background-attachment: fixed; 
+    
+}
+header a{
+    font-size: large;
+    float: right;
+    font-family: cursive;
+    color: black;
+    margin-right: 30px;
+    margin-top: 15px;
+
+}
+
+.baner{
+    background-image: url("/gif2.gif");
+    height: 20vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: 35%;
+    background-color: rgba(37, 145, 247, 0.767);
+}
+section h1{
+    font-size: 50px;
+    font-family: cursive;
+}
+.start{
+    text-align: left;
+    padding: 80px;
+}
+video{
+    max-width: 100%;
+    margin: 100px 100px;
+}
+footer {
+    display: block;
+    background-color: rgb(66, 61, 61);
+    padding: 30px 90px;
+}
+.icon{
+    float: right;
+}
+.last{
+    background-color: yellow;
+    color: black;
+    padding: 20px 80px;
+}
+.last h1{
+    font-family: 'Pacifico', cursive;
+}
+.last a{
+    color: black;
+    text-decoration: none;
+}
+button{
+    background-color: rgba(255, 94, 0, 0.658);
+    color: black;
+    
+    border-color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    font-family: cursive;
+    
+    float: right;
+   
+}
+button:hover{
+    background-color: white;
+    color: black;
+}

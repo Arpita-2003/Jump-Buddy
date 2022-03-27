@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header h1{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    background-color: yellow;
+    padding-left: 30px; 
+    background-attachment: fixed; 
+    
+}
+header a{
+    font-size: large;
+    float: right;
+    font-family: cursive;
+    color: black;
+    margin-right: 30px;
+    margin-top: 15px;
+
+}
+body section{
+    background-attachment: fixed;
+}
+.banner{
+    background-image: url("/gif\ 1.gif");
+    background-repeat: no-repeat;
+    height: 20vw;
+    min-height: 100px;
+    background-size: 33%;
+    background-position: 0% 20%;
+    }
+.ban{
+    
+    background-image: url("/gif4.gif");
+    background-repeat: no-repeat;
+    height: 20vw;
+    min-height: 100px;
+    background-size: 33%;
+    background-position: 50% 50%;
+}
+.nab{
+    
+    background-image: url("/gif6.gif");
+    background-repeat: no-repeat;
+    height: 20vw;
+    min-height: 100px;
+    background-size: 33%;
+    background-position: 100% 30%;
+}
+nav{
+    display: flex;
+    background-color: #333;
+    
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 100px;
+    float: left;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.heading{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.video{
+   float: left;
+}
+.videodesc{
+    text-align: center;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    float: right;
+    padding-right: 150px;
+    padding-top: 50px;
+    font-size: 25px;  
+    margin-left: 10px;  
+}
+.last{
+    background-color: yellow;
+    color: black;
+    padding: 20px 80px;
+}
+.last h1{
+    font-family: 'Pacifico', cursive;
+}
+.last a{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    display: block;
+    background-color: rgb(66, 61, 61);
+    padding: 30px 90px;
+}
+.icon{
+    float: right;
+}
+button{
+    background-color: rgba(255, 94, 0, 0.658);
+    color: black;
+    
+    border-color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    font-family: cursive;
+    
+    float: right;
+   
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width: 700px){
+    nav{
+        flex-direction: column;
+    }
+}
+    
